@@ -1,0 +1,1 @@
+45 | Get-Member  | Format-List
