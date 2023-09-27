@@ -1,7 +1,5 @@
 $ScriptBlock = {
     param($Name)
-	Write-Host $Name
-	Write-Host $pwd
 	Set-Location C:\dev\Powershell Example Scripts
     New-Item -Path "C:\dev\Powershell Example Scripts\" -Name "$Name.txt" -ItemType File
 }
